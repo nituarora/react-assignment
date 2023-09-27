@@ -28,8 +28,13 @@ const CountryList = () => {
                     const country = countries[countryId];
                     reqData.push({ "countryname": country.countryname, "image": country.countryFlag })
                 })}
+                <div className='wrapper'>
+                <div className='pageHeader'>
+<h2>Country List</h2>
+                </div>
                 {/* call carousel component */}
                 <Carousal countryData={reqData} />
+                </div>
             </>
         );
 

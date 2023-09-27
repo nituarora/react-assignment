@@ -17,13 +17,30 @@ code {
   width: 96%;
   padding: 20px;
   border: 1px solid;
-  height: 300px;
+  height: auto;
   margin: 0 auto;
 }
 
 
 .mycarousal .react-multi-carousel-item {
-
   border: 1px solid;
   height: 100%;
+  margin: 10px;
+}
+.image-container img {
+  width: 90%;
+  margin: 26px auto;
+  height: 200px;
+}
+.image-container {
+  text-align: center;
+}
+
+button.btnlink {
+  width: 60%;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin: 15px;
+  font-size: 15px;
 }

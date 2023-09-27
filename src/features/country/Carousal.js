@@ -52,7 +52,7 @@ const Carousal = (props) => {
             <Link to={`/detail/${image.countryname}`}>
               <div className="image-container">
                 <img src={image.image.png} alt={`Image ${index}`} />
-                <p>{image.countryname}</p>
+                <button className='btnlink'>{image.countryname}</button>
               </div>
             </Link>
           </div>
